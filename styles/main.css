@@ -1,0 +1,35 @@
+body{
+    background-color: bisque;
+}
+
+div {
+    display: flex;
+}
+
+header {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+}
+
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.shop {
+    border: 1px dotted black;
+    flex-basis: 27%;
+    text-align: center;  
+    margin: 1 px;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 14px;
+}
+
