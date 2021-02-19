@@ -1,3 +1,5 @@
+@import "shop.css";
+
 body{
     background-color: bisque;
 }
@@ -24,12 +26,21 @@ header {
     border: 1px dotted black;
     flex-basis: 27%;
     text-align: center;  
-    margin: 1 px;
     font-size: 20px;
 }
 
-ul {
+/* @import 'shop.css'; */
+
+h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p {
     list-style-type: none;
     font-size: 14px;
+    text-align: center;
+    margin: 5px;
 }
 
